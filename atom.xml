@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Justin on WEB</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-01-02T21:42:41.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Justin Willis</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Welcome!</title>
+    <link href="http://yoursite.com/2017/01/02/Started/"/>
+    <id>http://yoursite.com/2017/01/02/Started/</id>
+    <published>2017-01-02T21:28:36.000Z</published>
+    <updated>2017-01-02T21:42:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Plans-for-this-year"><a href="#Plans-for-this-year" class="headerlink" title="Plans for this year"></a>Plans for this year</h3><p>Hey everyone! So as you can see, one of the keys to my plan this year is to start a blog!<br>One of the things I love the most at the moment is explaining PWA’s, the technology behind them and then<br>need for them, and helping people build those PWA’s with <a href="http://ionicframework.com/" target="_blank" rel="external">Ionic</a>! The main outlet for this going forward is hopefully going<br>to be this blog, along with my <a href="https://twitter.com/Justinwillis96" target="_blank" rel="external">Twitter</a> of course.</p>
+<p>My other plans for this year include contributing more to different web projects on Github. The open source web community is amazing,<br>I have seen this first hand plenty of times while working at Ionic, and I want to contribute back to all these projects that help<br>not only Ionic be great, but the web become <em>the</em> platform for people to build badass stuff on.</p>
+<p>I plan to release content on this blog often, and I hope you enjoy all the content end up posting. Happy New Years everyone!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Plans-for-this-year&quot;&gt;&lt;a href=&quot;#Plans-for-this-year&quot; class=&quot;headerlink&quot; title=&quot;Plans for this year&quot;&gt;&lt;/a&gt;Plans for this year&lt;/h3&gt;&lt;p&gt;He
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
