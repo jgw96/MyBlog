@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Justin on WEB</title>
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/MyBlog/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://jgw96.github.io/MyBlog/"/>
   <updated>2017-01-02T21:42:41.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://jgw96.github.io/MyBlog/</id>
   
   <author>
     <name>Justin Willis</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Welcome!</title>
-    <link href="http://yoursite.com/2017/01/02/Started/"/>
-    <id>http://yoursite.com/2017/01/02/Started/</id>
+    <link href="https://jgw96.github.io/MyBlog/2017/01/02/Started/"/>
+    <id>https://jgw96.github.io/MyBlog/2017/01/02/Started/</id>
     <published>2017-01-02T21:28:36.000Z</published>
     <updated>2017-01-02T21:42:41.000Z</updated>
     
