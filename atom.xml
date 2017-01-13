@@ -5,7 +5,7 @@
   <link href="/MyBlog/atom.xml" rel="self"/>
   
   <link href="https://jgw96.github.io/MyBlog/"/>
-  <updated>2017-01-12T03:58:54.000Z</updated>
+  <updated>2017-01-13T03:06:15.000Z</updated>
   <id>https://jgw96.github.io/MyBlog/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Device Api&#39;s and why they matter for a PWA</title>
+    <link href="https://jgw96.github.io/MyBlog/2017/01/12/DeviceApis/"/>
+    <id>https://jgw96.github.io/MyBlog/2017/01/12/DeviceApis/</id>
+    <published>2017-01-12T08:06:56.000Z</published>
+    <updated>2017-01-13T03:06:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Ever wondered if you could make a device vibrate, or access the camera, or even access the native share dialog for a device from your PWA?<br>Sure, if you make a regular Ionic 2 app, use Ionic Native and deploy this to a device then yeah, you can have access to all these things<br>but what if you are making a PWA? Well the cool thing is you <em>can</em> access all these things with all the new device api’s that are now supported<br>in browsers. You can now swing your magic wand and give your PWA even more of that “native” feel by accessing the capabilities of the users device<br>all from plain JavaScript!</p>
+<h4 id="Why-would-I-want-to-access-these-native-capabilities"><a href="#Why-would-I-want-to-access-these-native-capabilities" class="headerlink" title="Why would I want to access these native capabilities?"></a>Why would I want to access these native capabilities?</h4><p>To answer this question we first have to take a look at exactly what a PWA is. If you dont know already a PWA is a web app built with<br>modern web technologies such as service workers, web manifests and more that give a fast, app-like experience in the browser. And, if the user decides<br>they like your PWA and visit it enough times then they will get a prompt to add it to their homescreen on their device which puts your PWA<br>right alongside all the native apps on their device! Now the two key things here are <em>app-like</em> and <em>right alongside all the native apps on their<br>device</em>. When your PWA sits right alongside native apps and launches just like a native app (no browser chrome) a user has the expectation that<br>your PWA will act and feel just like a native app. A key part of this is being able to access the same device functionality that a native app<br>can access. A good example of this is sharing something on Android. There is a standard way that sharing happens on Android and all native apps will<br>use this same api for sharing something which means that a user will get used to this way of sharing something from their device. Now, if they are using<br>your PWA, hit a share button and are all the sudden faced with an unfamiliar sharing ui then it can cause confusion, therefore causing the user<br>to potentially not want to use your PWA.</p>
+<h4 id="Ok-so-now-I-want-to-use-these-api’s-but-what-is-actually-available"><a href="#Ok-so-now-I-want-to-use-these-api’s-but-what-is-actually-available" class="headerlink" title="Ok so now I want to use these api’s, but what is actually available?"></a>Ok so now I want to use these api’s, but what is actually available?</h4><p>The cool thing about the modern web is that it is immensely powerful and has more access to your device than you may think. Here is a short list<br>of some of what is available out there now: <em>disclaimer - not all of these api’s are widely supported yet but are standardized and should be coming soon</em></p>
+<ul>
+<li>Vibration api - <a href="http://caniuse.com/#feat=vibration" target="_blank" rel="external">http://caniuse.com/#feat=vibration</a></li>
+<li>GetUserMedia api - <a href="http://caniuse.com/#search=getUserMedia" target="_blank" rel="external">http://caniuse.com/#search=getUserMedia</a></li>
+<li>Web Share api - Only available as an <a href="https://github.com/jpchase/OriginTrials/blob/gh-pages/developer-guide.md" target="_blank" rel="external">origin trial</a> in Chrome at the moment</li>
+<li>Battery Status api - <a href="http://caniuse.com/#feat=battery-status" target="_blank" rel="external">http://caniuse.com/#feat=battery-status</a></li>
+<li>Push messages api - <a href="http://caniuse.com/#search=push" target="_blank" rel="external">http://caniuse.com/#search=push</a></li>
+</ul>
+<p>For a comprehensive list feel free to check out <a href="https://whatwebcando.today/" target="_blank" rel="external">What web can do today</a> but these are some of what I personally think<br>are the coolest device api’s available at the moment. As you can see the browser support is pretty decent for most of these api’s. Happily, edge is in the<br>progress of implementing most of these (understandable as they are still a relatively new browser) which just leaves Safari not having good support, I have<br>hope that Safari will implement these api’s soon though!</p>
+<h4 id="This-is-exciting-Have-any-examples-available-I-can-use"><a href="#This-is-exciting-Have-any-examples-available-I-can-use" class="headerlink" title="This is exciting! Have any examples available I can use?"></a>This is exciting! Have any examples available I can use?</h4><p>Over the coming weeks I hope to create a few PWA’s that use these api’s and open source them on Github for you to use as examples!</p>
+<p>Thanks for checking out what is only my second blog post on this blog! I have a special blog post planned next that I think you will want to see!<br>Think its possible to create a full blown camera app only out of web technologies? It definitely is and in my next post I will go over how I did this!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Ever wondered if you could make a device vibrate, or access the camera, or even access the native share dialog for a device from your PWA
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>requestIdleCallback, Let the browser work for you!</title>
